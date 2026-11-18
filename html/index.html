@@ -43,12 +43,8 @@
   <section data-view="home">
     <div class="col intro-wrap">
       <div class="intro">
-        <figure class="portrait" style="margin:0">VK<img src="content/portrait.jpg" alt="Portrait of Varnitha Kurli" onerror="this.remove()"><span class="ph-file">content/portrait.jpg</span></figure>
-        <div class="bio">
-          <p>I am a final year Phd candidate in Environmental Studies department at CU Boulder. I have a background in economics and mathematics, with graduate training in logic and research methodology, and a decade of applied work on forests, water, cities and disasters. One question connects my training and research: <strong>what happens to people when the systems around them are shocked, and how can evidence help them recover?</strong> My dissertation brings that question to population change, tracing how climate hazards and population policies shape fertility, migration and mortality across India, Bangladesh and the world. My goal is to keep generating evidence and producing research that is rigorous enough for science and practical enough for the people making decisions on the ground.I am deeply grateful for working on challenges that may have made a difference, somewhere in the world. To have had the opportunity to serve at the World Bank and pursue research I truly believe in is a privilege.</p>
-          <p>I am affiliated with the <a href="https://betterplanetlab.com/" target="_blank" rel="noopener">Better Planet Laboratory</a> and the <a href="https://carricolab.weebly.com/" target="_blank" rel="noopener">Environment and Behavior Lab</a> at CU Boulder.</p>
-          <p>Earlier, I was a Water Data Specialist at the <a href="https://www.worldbank.org/" target="_blank" rel="noopener">World Bank</a>, where I continue to provide analytical and advisory support as a Data Scientist Consultant. I received an M.Sc. in Logic, Computation and Methodology from Carnegie Mellon University and a B.A. with honors in Economics and Mathematics from the University of Massachusetts Amherst.</p>
-        </div>
+        <figure class="portrait" style="margin:0">VK<img src="content/home/portrait.jpg" alt="Portrait of Varnitha Kurli" onerror="this.remove()"><span class="ph-file">content/home/portrait.jpg</span></figure>
+        <div class="bio" data-md="content/home/bio.md"></div>
       </div>
     </div>
 
@@ -69,121 +65,14 @@
         <li><button type="button" data-filter="research" aria-pressed="false">Research</button></li>
         <li><button type="button" data-filter="tools" aria-pressed="false">Tools</button></li>
       </ul>
-      <div class="tiles">
-        <a class="tile" href="#projects" data-open="p-displacement" data-cat="research tools" style="--tint:#f2d6d3">
-          <div class="img"><img src="content/internal-displacement.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/internal-displacement.jpg</span><span class="over">View project</span></div>
-          <h3>Mapping Climate-Driven Internal Displacement</h3><p>Who moves when disasters strike</p><span class="kind">Research · Tools</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-twochild" data-cat="research" style="--tint:#f6dcc8">
-          <div class="img"><img src="content/two-child-policies.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/two-child-policies.jpg</span><span class="over">View project</span></div>
-          <h3>Two-Child Policies in India</h3><p>Policy shocks and fertility</p><span class="kind">Research</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-bangladesh" data-cat="research" style="--tint:#f5e3b5">
-          <div class="img"><img src="content/compounding-shocks.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/compounding-shocks.jpg</span><span class="over">View project</span></div>
-          <h3>Compounding Climate Shocks in Bangladesh</h3><p>Drought, floods and child health</p><span class="kind">Research</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-forests" data-cat="research" style="--tint:#e6e4cc">
-          <div class="img"><img src="content/forests.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/forests.jpg</span><span class="over">View project</span></div>
-          <h3>Forests and Sustainable Development</h3><p>Forests, people and development</p><span class="kind">Research</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-groundwater" data-cat="research tools" style="--tint:#f1e4cf">
-          <div class="img"><img src="content/groundwater.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/groundwater.jpg</span><span class="over">View project</span></div>
-          <h3>Ground Water Dynamics</h3><p>Change in groundwater over time</p><span class="kind">Research · Tools</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-women-water" data-cat="tools" style="--tint:#efd2c0">
-          <div class="img"><img src="content/women-in-water.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/women-in-water.jpg</span><span class="over">View project</span></div>
-          <h3>WBG Women in Water</h3><p>Women in World Bank water projects</p><span class="kind">Tools</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-hazards" data-cat="applied" style="--tint:#f3dccb">
-          <div class="img"><img src="content/climate-hazards.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/climate-hazards.jpg</span><span class="over">View project</span></div>
-          <h3>Climate Hazards</h3><p>Exposure to floods, storms, heat and drought</p><span class="kind">Project</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-urban" data-cat="research" style="--tint:#ebe0d4">
-          <div class="img"><img src="content/urbanization.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/urbanization.jpg</span><span class="over">View project</span></div>
-          <h3>Urbanization</h3><p>Cities, growth and climate risk</p><span class="kind">Research</span>
-        </a>
-        <a class="tile" href="#projects" data-open="p-fcv" data-cat="applied" style="--tint:#eed9cf">
-          <div class="img"><img src="content/fragile-conflict.jpg" alt="" onerror="this.remove()"><span class="ph-file">content/fragile-conflict.jpg</span><span class="over">View project</span></div>
-          <h3>Fragile and Conflict-Affected Areas</h3><p>Development where conflict and climate meet</p><span class="kind">Project</span>
-        </a>
-      </div>
+      <!-- Filled by components/projects.js from content/projects/projects.json -->
+      <div class="tiles"></div>
     </div>
   </section>
 
-  <!-- PROJECT DETAILS: shown in a dialog when a tile is opened -->
-  <div id="project-store" hidden>
-        <article class="work" id="p-displacement">
-          <span class="status">Work in progress</span>
-          <h3>Mapping Internal Displacement From Environmental Disasters</h3>
-          <p class="by">with Zia Mehrabi and Amanda Carrico · <span class="venue">Oral Presentation at PopClima, Bologna and PAA 2027</span></p>
-          <p class="gist">A global map of floods, storms, wildfires and landslides, and the share of exposed people each event displaced or deceased.</p>
-          <details>
-            <summary>Abstract</summary>
-            <div class="more">
-              <p>Projections of climate migration rest on thin evidence about how many exposed people actually move. I map the recorded footprint of each displacement event from 2014 to 2023 and estimate the ratio of people displaced to people exposed, separating exposure from displacement itself.</p>
-              <p>Quantile models of the upper tail give expected displacement and mortality rates for the most severe events by disaster type, a baseline that humanitarian planners and funders can use. I also test whether conflict and subnational human development shift these rates.</p>
-            </div>
-          </details>
-          <div class="meta"><span><b>Coverage</b> Global, 2014–2023</span><span><b>Events</b> 3,512</span></div>
-        </article>
-        <article class="work" id="p-twochild">
-          <span class="status">Preprint forthcoming</span>
-          <h3>Two-child policies in India</h3>
-          <p class="by"> with Jane Menken· <span class="venue">SocArXiv</span>, 2026</p>
-          <p class="gist">Did laws barring parents of more than two children from local office and government employment reduce third births, and did they weigh more heavily on poor families or families without sons?</p>
-          <details>
-            <summary>Abstract</summary>
-            <div class="more">
-              <p>Several Indian states adopted two-child norms that penalized households exceeding a two-child limit. Using two-stage matched samples from the National Family Health Survey across three adoption waves, I estimate the effect of these policies on progression from a second to a third birth in the short and longer run.</p>
-              <p>Triple-difference estimates show no evidence that the policies operated differently by sibling sex composition or household poverty. Son preference and poverty shaped third births independently of the policy, in adopting and comparison states, before and after. The result points to a different kind of policy failure: an instrument with too little force to engage either mechanism.</p>
-            </div>
-          </details>
-          <div class="meta"><span><b>Data</b> NFHS</span><span><b>Methods</b> Difference-in-differences, matching</span></div>
-        </article>
-        <article class="work" id="p-bangladesh">
-          <span class="status">Work in progress</span>
-          <h3>Compounding climate shocks in Bangladesh</h3>
-          <p class="by">with Amanda Carrico · <span class="venue">Oral Presentation at PAA 2027</span></p>
-          <p class="gist">Does a drought early in life followed by a flood or cyclone harm child growth and survival more than either shock alone, and does the order matter?</p>
-          <details>
-            <summary>Abstract</summary>
-            <div class="more">
-              <p>Children in Bangladesh often face a slow-onset shock such as drought or humid heat followed by a sudden one such as a flood or cyclone. The effects of single hazards are well documented, but sequences are not. I test whether compound exposure between late pregnancy and age five is worse than the sum of its parts, and whether drought followed by flood is more harmful than the reverse.</p>
-              <p>Child records from the 2017–18 and 2022 Bangladesh Demographic and Health Surveys are linked month by month to cyclone tracks, satellite flood maps, drought indices and heat-stress measures. Outcomes are wasting and under-five mortality.</p>
-            </div>
-          </details>
-          <div class="meta"><span><b>Data</b> BDHS 2017–18, 2022</span><span><b>Hazards</b> Drought, flood, cyclone, heat</span></div>
-        </article>
-        <article class="work" id="p-forests">
-          <h3>Forests and Sustainable Development</h3>
-          <p class="gist"><i class="ph">Forest restoration is widely recognized as a global priority to sequester carbon, conserve biodiversity, and support the livelihoods of rural and indigenous people. Contemporary interventions often target landscapes with a substantial human presence, and they regularly call for stakeholder participation during project implementation. However, there is a lack of empirical evidence linking local involvement with multiple forest benefits over long time horizons. Using a unique dataset of four decades of government-sponsored tree planting in North India, we find that both substantive local influence over planning projects and sustained control over management into the present—a favorable combination of long-term, empowered local governance—is associated with greater livelihood benefits and improvements in forest canopy cover over time. Our work points toward complex socio-ecological relationships, which may be explained by a positive interaction between empowered local governance, interventions that align with local needs, and long-term local care for planted forests. This implies that current financial commitments may need to be accompanied by institutional reforms that give communities meaningful control over planning and build capacities for self-governance that can endure into the future. In light of this work, we suggest that a paradigm of ‘people-centered restoration’ may offer the best opportunity to support long-term environmental goals in densely settled landscapes in the Global South.</i></p>
-          <div class="meta"><span><b>Link</b> <a href="https://iopscience.iop.org/article/10.1088/1748-9326/adf1b8/meta" target="_blank" rel="noopener">Journal article</a></span></div>
-        </article>
-        <article class="work" id="p-groundwater">
-          <h3>Ground Water Dynamics</h3>
-          <p class="gist"><i class="ph">The earliest and often most significant impacts of climate change in the American West is on water resources. For communities reliant on irrigated agriculture, ensuring water security in the face of climate change can be critical to the preservation of local economies and understanding water management practices can support climate resilience. Research techniques such as behavioral games can be used to study how incentives and interventions influence community behaviors toward water conservation practices. This work explores the development and evaluation of a digital behavioral economic game using data from the San Luis Valley in order to improve understanding of how groundwater is consumed and conserved within agricultural communities in Colorado beyond traditional study techniques. In 2023, stakeholders were recruited to play and validate the game as a tool for understanding groundwater conservation practices and discuss the advantages of this study mechanism compared to standard methods such as surveys that do not account for dynamic and interactive decision-making. Results showed that financial incentives significantly influenced participants’ crop choices and water use patterns, while demonstrating the impact of data transparency and revealing the development of collaborative behaviors. Qualitative assessments provided insights into real-world challenges, including state pressure to restore aquifer levels and threats to the local economy’s reliance on irrigated agriculture. Discussions emphasized the need for improved water conservation education and more effective subsidy approaches for agricultural practices. The study tool will help policy makers explore and pilot new institutional innovations to prevent overexploitation of natural renewable resources and can be used to inform and empower communities to actively engage in collaborative problem-solving processes leading to improved community water conservation efforts.</i></p>
-          <div class="meta"><span><b>Link</b> <a href="https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000298" target="_blank" rel="noopener">Journal article</a></span></div>
-        </article>
-        <article class="work" id="p-women-water">
-          <h3>WBG Women in Water</h3>
-          <p class="gist"><i class="ph">The main purpose of the Equal Aqua database is to enable policy makers, donors, public and private entities in the water sector to visualize women’s leadership and representation across water institutions globally, comparing performance levels across regions, country income levels, and fragility, conflict and violence (FCV) contexts. The dataset also analyzes global and regional averages for inclusive policies and female-friendly work environment. The Equal Aqua dataset began in 2019 with a focus on opportunities and approaches that Water Supply and Sanitation (WSS) service providers can adopt to eliminate the barriers to employment and career advancement. It has since been expanded to include Water Resource Management (WRM) institutions and private sector water institutions. As part of the commitment to deliver more and better jobs for women, Equal Aqua provides water institutions with various diagnostic instruments including the Equal Aqua HR survey, which has recently been upgraded and is now accessible and administered digitally. The enhanced survey includes new questions specifically addressing the gender pay gap and indirect employment, allowing institutions to gain deeper insights into equity and women’s representation.</i></p>
-          <div class="meta"><span><b>Link</b> <a href="https://wbwaterdata.org/breakingbarriers/en/home/" target="_blank" rel="noopener">Breaking Barriers data platform</a></span></div>
-        </article>
-        <article class="work" id="p-hazards">
-          <h3>Climate Hazards</h3>
-          <p class="gist"><i class="ph">I'm part of the team that builds the Infrascan tool, a geospatial analytics instrument to evaluate multi-hazard exposure, vulnerability, and climate risks for infrastructure assets. Ongoing development focuses on automating workflows and integrating additional risk factors like extreme heat, droughts, and wildfires.</i></p>
-        </article>
-        <article class="work" id="p-urban">
-          <h3>Urbanization</h3>
-          <p class="gist"><i class="ph">In this paper we use high resolution satellite data on the proportion of buildings in a 250x250 meter cell to study the evolution of human settlement in Ghana over a 40 year period. We find a strong increase in built-up area over time, mostly concentrated in the vicinity of roads, and also directly on the coast. We find strong evidence of agglomeration effects both in the static sense—buildup in one cell predicts buildup in a nearby cell—and in a dynamic sense—buildup in a cell predicts buildup in that cell later on and an increase in buildup in nearby cells. These effects are strongest over a 3 to 15 Km radius, which corresponds to a natural hinterland for a population without mechanized transportation. We find no evidence that human settlements are spaced more or less equally either over the landscape or along roads. This suggests that arable land is not yet fully utilized, allowing rural settlements to be separated by areas of un-farmed land. By fitting a transition matrix to the data, we predict a sharp increase in the proportion of the country that is densely built-up by the middle and the end of the century, but no increase in the proportion of partially built-up locations.</i></p>
-          <div class="meta"><span><b>Link</b> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250847" target="_blank" rel="noopener">Journal article</a></span></div>
-        </article>
-        <article class="work" id="p-fcv">
-          <h3>Fragile and Conflict-Affected Areas</h3>
-          <p class="gist"><i class="ph">The objectives of this report are to assess the impacts of the COVID-19 pandemic and the military coup on February 1, 2021, on the agriculture sector and food security in Myanmar and to identify some priority areas for action going forward. The report draws on primary and secondary sources of data to assess the impacts of recent political shocks and the COVID-19 pandemic on food security, including a farmer phone survey, key informant interviews with representatives of the agribusinesses and agricultural finance sectors, desk reviews and analyses of secondary data on the agriculture sector and food security, conflict analysis and mapping, and data on market prices from a variety of sources.</i></p>
-          <div class="meta"><span><b>Link</b> <a href="https://documents1.worldbank.org/curated/en/099459407082213027/pdf/IDU09b2f3a9b08afd048970aebd0f24c727e0d65.pdf" target="_blank" rel="noopener">World Bank report (Myanmar)</a></span></div>
-        </article>
-  </div>
+  <!-- PROJECT DETAILS: shown in a dialog when a tile is opened.
+       Filled by components/projects.js from the markdown files in content/projects/ -->
+  <div id="project-store" hidden></div>
 
   <dialog id="project-dialog" aria-label="Project details">
     <button type="button" class="close" id="dialog-close" aria-label="Close">×</button>
@@ -194,10 +83,10 @@
   <section data-view="resume" hidden>
     <div class="col">
       <div class="resume-bar">
-        <p>My full resume, updated October 2026.</p>
+        <div data-md="content/resume/resume.md"></div>
         <div class="resume-actions">
-          <a class="pill" href="content/Kurli_Resume.pdf" download="Kurli_Resume.pdf">Download PDF</a>
-          <a class="pill ghost" href="content/Kurli_Resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+          <a class="pill" href="content/resume/Kurli_Resume.pdf" download="Kurli_Resume.pdf">Download PDF</a>
+          <a class="pill ghost" href="content/resume/Kurli_Resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
         </div>
       </div>
       <div class="resume-pages">
@@ -211,24 +100,24 @@
   <section data-view="art" hidden>
     <div class="col">
       <h2 class="sec-label first">Photographs from Kurli</h2>
-      <p class="gallery-intro"><strong>Kurli</strong> is my native village, home to roughly 3,600 people in the <strong>Kokkarajukonda Forest Reserve</strong>. I try to visit as often as I can. I took these photographs in 2021, and the people in them are from the village, people I have known all my life.</p>
+      <div class="gallery-intro" data-md="content/art/kurli.md"></div>
     </div>
     <div class="wide">
       <div class="gallery kurli">
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/kurli/kurli-01.jpg" aria-label="Enlarge: The forest check post at Kurli, Kadiri Range"><img src="content/kurli/kurli-01.jpg" alt="Blue forest check post signed Kurli, Kadiri Range, with a wooden table outside" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/kurli/kurli-01.jpg" aria-label="Enlarge: The forest check post at Kurli, Kadiri Range"><img src="content/art/kurli/kurli-01.jpg" alt="Blue forest check post signed Kurli, Kadiri Range, with a wooden table outside" loading="lazy"></button>
           <figcaption>The forest check post at Kurli, Kadiri Range</figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/kurli/kurli-02.jpg" aria-label="Enlarge: Picking chrysanthemums"><img src="content/kurli/kurli-02.jpg" alt="Women from the village picking yellow flowers into baskets" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/kurli/kurli-02.jpg" aria-label="Enlarge: Picking chrysanthemums"><img src="content/art/kurli/kurli-02.jpg" alt="Women from the village picking yellow flowers into baskets" loading="lazy"></button>
           <figcaption>Picking chrysanthemums</figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/kurli/kurli-03.jpg" aria-label="Enlarge: Rolling a tyre on the village road"><img src="content/kurli/kurli-03.jpg" alt="A young boy standing with a tyre on a dirt road" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/kurli/kurli-03.jpg" aria-label="Enlarge: Rolling a tyre on the village road"><img src="content/art/kurli/kurli-03.jpg" alt="A young boy standing with a tyre on a dirt road" loading="lazy"></button>
           <figcaption>Rolling a tyre on the village road</figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/kurli/kurli-04.jpg" aria-label="Enlarge: Walking the fields"><img src="content/kurli/kurli-04.jpg" alt="A farmer walking away through a green field under a blue sky" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/kurli/kurli-04.jpg" aria-label="Enlarge: Walking the fields"><img src="content/art/kurli/kurli-04.jpg" alt="A farmer walking away through a green field under a blue sky" loading="lazy"></button>
           <figcaption>Walking the fields</figcaption>
         </figure>
       </div>
@@ -236,33 +125,33 @@
 
     <div class="col">
       <h2 class="sec-label">Paintings</h2>
-      <p class="gallery-intro">Alongside research, I paint, mostly in <strong>acrylic</strong> and <strong>watercolor</strong>. I am also trained in oil painting, though I tend to lose patience with elaborate oil pieces. Much of my work belongs to a series on <strong>migration, urban life and climate change</strong>, based on oral histories from people in my native villages of Kurli and Tarimella in Anantapur, India. The paintings return to the questions in my research, such as drought, leaving home, and how girls&rsquo; lives differ across schools in Old Hyderabad, but through color, texture and, at times, Telugu script.</p>
+      <div class="gallery-intro" data-md="content/art/paintings.md"></div>
       <p class="saatchi"><a class="pill" href="https://www.saatchiart.com/en-se/varnithakurlireddy" target="_blank" rel="noopener">See my work on Saatchi Art →</a></p>
     </div>
     <div class="wide">
       <div class="gallery art">
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/art/art-01.jpg" aria-label="Enlarge painting 1"><img src="content/art/art-01.jpg" alt="Black acrylic painting of a tree" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/paintings/art-01.jpg" aria-label="Enlarge painting 1"><img src="content/art/paintings/art-01.jpg" alt="Black acrylic painting of a tree" loading="lazy"></button>
           <figcaption><strong>The last farewell is not easy</strong> &middot; Acrylic, 2016</figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/art/art-02.jpg" aria-label="Enlarge painting 2"><img src="content/art/art-02.jpg" alt="Abstract painting of organic shapes" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/paintings/art-02.jpg" aria-label="Enlarge painting 2"><img src="content/art/paintings/art-02.jpg" alt="Abstract painting of organic shapes" loading="lazy"></button>
           <figcaption><strong>Muslim Problem</strong> &middot; 2016</figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/art/art-03.jpg" aria-label="Enlarge painting 3"><img src="content/art/art-03.jpg" alt="Charcoal study of a face" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/paintings/art-03.jpg" aria-label="Enlarge painting 3"><img src="content/art/paintings/art-03.jpg" alt="Charcoal study of a face" loading="lazy"></button>
           <figcaption><strong>Missing Eye</strong></figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/art/art-04.jpg" aria-label="Enlarge painting 4"><img src="content/art/art-04.jpg" alt="Painting of a figure in a hijab surrounded by Telugu script" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/paintings/art-04.jpg" aria-label="Enlarge painting 4"><img src="content/art/paintings/art-04.jpg" alt="Painting of a figure in a hijab surrounded by Telugu script" loading="lazy"></button>
           <figcaption><strong>Girls in Government and Private Schools in Old Hyderabad</strong> &middot; Acrylic on paper, 2020</figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/art/art-05.jpg" aria-label="Enlarge painting 5"><img src="content/art/art-05.jpg" alt="Painting of a seated figure before cracked yellow earth" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/paintings/art-05.jpg" aria-label="Enlarge painting 5"><img src="content/art/paintings/art-05.jpg" alt="Painting of a seated figure before cracked yellow earth" loading="lazy"></button>
           <figcaption><strong>The many layers of drought</strong></figcaption>
         </figure>
         <figure class="shot">
-          <button type="button" class="frame filled" data-full="content/art/art-06.jpg" aria-label="Enlarge painting 6"><img src="content/art/art-06.jpg" alt="Black-and-white collage" loading="lazy"></button>
+          <button type="button" class="frame filled" data-full="content/art/paintings/art-06.jpg" aria-label="Enlarge painting 6"><img src="content/art/paintings/art-06.jpg" alt="Black-and-white collage" loading="lazy"></button>
           <figcaption><strong>The Drought</strong> &middot; 2020</figcaption>
         </figure>
       </div>
@@ -284,6 +173,10 @@
 </footer>
 </div>
 
+<!-- Site copy is written in markdown (content/**/*.md) and rendered in the browser -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+<script src="components/markdown.js"></script>
+<script src="components/projects.js"></script>
 <script>
 const HERO = {
   home:["Varnitha Kurli","Data For a Fairer, More Livable Planet"],
@@ -334,20 +227,6 @@ document.querySelectorAll("[data-go]").forEach(el=>el.addEventListener("click",e
 }));
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
 
-// Tiles open the matching project in a dialog
-const dlg=document.getElementById("project-dialog");
-const dlgBody=document.getElementById("dialog-body");
-document.querySelectorAll("[data-open]").forEach(t=>t.addEventListener("click",e=>{
-  e.preventDefault();
-  const entry=document.getElementById(t.dataset.open).cloneNode(true);
-  entry.removeAttribute("id");
-  const d=entry.querySelector("details"); if(d) d.open=true;
-  dlgBody.replaceChildren(entry);
-  dlg.showModal();
-}));
-document.getElementById("dialog-close").addEventListener("click",()=>dlg.close());
-dlg.addEventListener("click",e=>{ if(e.target===dlg) dlg.close(); });
-
 // Gallery frames take the photo's own shape once it loads
 document.querySelectorAll(".frame img").forEach(img=>{
   const fit=()=>img.closest(".frame").classList.add("filled");
@@ -364,13 +243,6 @@ document.querySelectorAll(".frame").forEach(btn=>btn.addEventListener("click",()
 }));
 document.getElementById("photo-close").addEventListener("click",()=>pd.close());
 pd.addEventListener("click",e=>{ if(e.target===pd) pd.close(); });
-
-// Tile filters
-document.querySelectorAll("[data-filter]").forEach(btn=>btn.addEventListener("click",()=>{
-  const f=btn.dataset.filter;
-  document.querySelectorAll("[data-filter]").forEach(b=>b.setAttribute("aria-pressed",b===btn));
-  document.querySelectorAll(".tile").forEach(t=>t.hidden=!(f==="all"||t.dataset.cat.split(" ").includes(f)));
-}));
 
 document.getElementById("copy").addEventListener("click",async e=>{
   const el=document.getElementById("mail");

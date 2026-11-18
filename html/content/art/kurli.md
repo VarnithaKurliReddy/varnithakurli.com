@@ -1,0 +1,1 @@
+**Kurli** is my native village, home to roughly 3,600 people in the **Kokkarajukonda Forest Reserve**. I try to visit as often as I can. I took these photographs in 2021, and the people in them are from the village, people I have known all my life.

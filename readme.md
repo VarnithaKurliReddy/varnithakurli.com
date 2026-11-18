@@ -1,5 +1,25 @@
 # Readme
 
+## Content
+Site copy is written in markdown and rendered in the browser at page load by [marked](https://marked.js.org) (loaded from cdnjs). `html/content/` mirrors the site's tabs:
+
+```
+html/
+  index.html                page skeleton, galleries, contact block
+  style.css
+  components/
+    markdown.js             fills every <div data-md="path.md"> with the rendered file
+    projects.js             builds the Projects tiles and dialogs
+  content/
+    hero.jpg
+    home/                   bio.md, portrait.jpg
+    projects/               projects.json, <name>.md, thumbnails/<name>.jpg
+    art/                    kurli.md, kurli/, paintings.md, paintings/
+    resume/                 resume.md, Kurli_Resume.pdf, page images
+```
+
+`html/content/README.txt` documents the `projects.json` entries and the layout of a project's markdown file. The content is loaded with `fetch`, so the site has to be viewed through a web server (the container below), not opened as a `file://` page.
+
 ## Local development
 While the website contents are built into the container, the local development directory may be mounted into the container directly for more rapid iteration:
 

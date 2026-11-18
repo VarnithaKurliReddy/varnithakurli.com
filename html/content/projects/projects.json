@@ -1,0 +1,65 @@
+{
+  "Mapping Climate-Driven Internal Displacement": {
+    "thumbnail": "thumbnails/internal-displacement.jpg",
+    "description": "Who moves when disasters strike",
+    "tags": ["research", "tools"],
+    "details": "internal-displacement.md",
+    "tint": "#f2d6d3"
+  },
+  "Two-Child Policies in India": {
+    "thumbnail": "thumbnails/two-child-policies.jpg",
+    "description": "Policy shocks and fertility",
+    "tags": ["research"],
+    "details": "two-child-policies.md",
+    "tint": "#f6dcc8"
+  },
+  "Compounding Climate Shocks in Bangladesh": {
+    "thumbnail": "thumbnails/compounding-shocks.jpg",
+    "description": "Drought, floods and child health",
+    "tags": ["research"],
+    "details": "compounding-shocks.md",
+    "tint": "#f5e3b5"
+  },
+  "Forests and Sustainable Development": {
+    "thumbnail": "thumbnails/forests.jpg",
+    "description": "Forests, people and development",
+    "tags": ["research"],
+    "details": "forests.md",
+    "tint": "#e6e4cc"
+  },
+  "Ground Water Dynamics": {
+    "thumbnail": "thumbnails/groundwater.jpg",
+    "description": "Change in groundwater over time",
+    "tags": ["research", "tools"],
+    "details": "groundwater.md",
+    "tint": "#f1e4cf"
+  },
+  "WBG Women in Water": {
+    "thumbnail": "thumbnails/women-in-water.jpg",
+    "description": "Women in World Bank water projects",
+    "tags": ["tools"],
+    "details": "women-in-water.md",
+    "tint": "#efd2c0"
+  },
+  "Climate Hazards": {
+    "thumbnail": "thumbnails/climate-hazards.jpg",
+    "description": "Exposure to floods, storms, heat and drought",
+    "tags": ["applied"],
+    "details": "climate-hazards.md",
+    "tint": "#f3dccb"
+  },
+  "Urbanization": {
+    "thumbnail": "thumbnails/urbanization.jpg",
+    "description": "Cities, growth and climate risk",
+    "tags": ["research"],
+    "details": "urbanization.md",
+    "tint": "#ebe0d4"
+  },
+  "Fragile and Conflict-Affected Areas": {
+    "thumbnail": "thumbnails/fragile-conflict.jpg",
+    "description": "Development where conflict and climate meet",
+    "tags": ["applied"],
+    "details": "fragile-conflict.md",
+    "tint": "#eed9cf"
+  }
+}

@@ -157,6 +157,7 @@ dialog#project-dialog .work h3{font-size:clamp(24px,3vw,30px);padding-right:36px
 
 /* ---------- Kurli and Art galleries ---------- */
 .gallery-intro{font-size:19px;line-height:1.7;margin-bottom:8px}
+.gallery-intro p+p{margin-top:16px}
 .saatchi{margin:18px 0 6px}
 .pill{display:inline-block;font-family:var(--font-label);font-size:14px;font-weight:600;letter-spacing:.04em;text-decoration:none;color:var(--paper);background:var(--clay);padding:10px 20px;border-radius:999px}
 .pill:hover{background:var(--ink)}
